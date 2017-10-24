@@ -3,22 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>
-      PhP is Awesome
+      Learning PHP
     </title>
-    <style media="screen">
-      header{
-        background-color: #e3e3e3;
-        padding: 2em;
-        text-align: center;
-      }
-    </style>
   </head>
-  <header>
-    <h1>
-      Holla
-    </h1>
-  </header>
   <body>
+    <?= require 'partials/nav.php'; ?>
     <ul>
     <?php foreach ($tasks as $task) : ?>
       <li>
