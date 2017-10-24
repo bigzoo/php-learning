@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>
-      Learning PHP
-    </title>
-  </head>
-  <body>
-    <?= require 'partials/nav.php'; ?>
+<?= require 'partials/header.php'; ?>
     <ul>
     <?php foreach ($tasks as $task) : ?>
       <li>
@@ -21,6 +12,4 @@
       </li>
     <?php endforeach; ?>
   </ul>
-
-  </body>
-</html>
+<?= require 'partials/footer.php'; ?>
