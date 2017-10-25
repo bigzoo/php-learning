@@ -9,11 +9,7 @@ class PagesController{
     $title = 'Home';
 
 
-    return view('index',
-
-      compact('users', 'title')
-
-    );
+    return view('index');
 
   }
 
